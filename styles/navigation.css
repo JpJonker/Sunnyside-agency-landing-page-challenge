@@ -1,0 +1,43 @@
+.main-header {
+  min-height: 800px;
+  background-image: url("../images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-header .main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5em;
+}
+.main-header .main-navigation .navigation-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2em;
+}
+.main-header .main-navigation .navigation-items li {
+  list-style-type: none;
+}
+.main-header .main-navigation .navigation-items li a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-header .main-navigation .navigation-items li .nav-cta {
+  color: #000;
+  background-color: #fff;
+  padding: 1em 2em;
+  border-radius: 3em;
+}
+.main-header .header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  margin-top: 8em;
+}
+.main-header .header-text h1 {
+  color: #fff;
+  letter-spacing: 0.6ch;
+}/*# sourceMappingURL=navigation.css.map */

@@ -1,0 +1,52 @@
+.main-header {
+  min-height: 800px;
+  background-image: url("../images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .main-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2.5em;
+
+    .navigation-items {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      gap: 2em;
+
+      li {
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        .nav-cta {
+          color: #000;
+          background-color: #fff;
+          padding: 1em 2em;
+          border-radius: 3em;
+        }
+      }
+    }
+  }
+
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+
+    margin-top: 8em;
+
+    h1 {
+      color: #fff;
+      letter-spacing: 0.6ch;
+    }
+  }
+}
